@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && move build ../public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,5 +40,5 @@
     ]
   },
   
-  "proxy":"https://qlbackend.onrender.com"
+  "proxy":"https://qlbackend.onrender.com:5000"
 }
